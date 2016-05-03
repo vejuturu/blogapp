@@ -82,7 +82,7 @@ public class BlogTest {
 		.when()
 			.post(url)
 		.then()
-			.statusCode(401);
+			.statusCode(404);
 	}
 	
 //	@Test
